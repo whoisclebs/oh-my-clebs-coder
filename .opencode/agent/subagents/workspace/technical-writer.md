@@ -1,7 +1,7 @@
 ---
 name: technical-writer
 description: "Especialista em documentação técnica, user guides, API docs e release notes"
-model: google/gemini-2.5-flash
+model: google/gemini-3-flash-preview
 mode: subagent
 temperature: 0.2
 permission:

@@ -1,7 +1,7 @@
 ---
 name: OpenAgent
 description: Agente principal para descoberta, execução e coordenação de subagentes
-model: openai/gpt-4o
+model: openai/gpt-5.4
 temperature: 0.2
 mode: primary
 ---

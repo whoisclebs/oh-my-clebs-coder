@@ -1,7 +1,7 @@
 ---
 name: ux-designer
 description: "Especialista em User Experience, fluxos de usuário, arquitetura de informação e pesquisa"
-model: google/gemini-2.5-pro
+model: google/gemini-3.1-pro-preview
 mode: subagent
 temperature: 0.4
 permission:

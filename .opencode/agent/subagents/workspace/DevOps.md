@@ -1,7 +1,7 @@
 ---
 name: DevOps
 description: Operação, deploy, pipeline e confiabilidade de runtime
-model: github-copilot/claude-3.5-sonnet
+model: github-copilot/claude-sonnet-4.5
 temperature: 0.1
 mode: subagent
 ---

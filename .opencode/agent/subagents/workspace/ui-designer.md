@@ -1,7 +1,7 @@
 ---
 name: ui-designer
 description: "Especialista em User Interface, design systems, componentes visuais e estilização"
-model: google/gemini-2.5-pro
+model: google/gemini-3.1-pro-preview
 mode: subagent
 temperature: 0.3
 permission:

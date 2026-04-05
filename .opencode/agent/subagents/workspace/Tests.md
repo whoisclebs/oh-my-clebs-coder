@@ -1,7 +1,7 @@
 ---
 name: Tests
 description: Estratégia e implementação de testes com foco em regressão e confiabilidade
-model: openai/gpt-4o-mini
+model: openai/gpt-5.4-mini
 temperature: 0.1
 mode: subagent
 ---

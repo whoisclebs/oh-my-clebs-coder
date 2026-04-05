@@ -1,7 +1,7 @@
 ---
 name: OpenCoder
 description: Agente principal orientado a implementação com uso pragmático de subagentes
-model: openai/gpt-4o
+model: openai/gpt-5.4
 temperature: 0.2
 mode: primary
 ---

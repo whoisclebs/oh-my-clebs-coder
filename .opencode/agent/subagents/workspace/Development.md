@@ -1,7 +1,7 @@
 ---
 name: Development
 description: Implementação de código com foco em mudanças pequenas e validação local
-model: openai/o3-mini
+model: openai/gpt-5.1-codex-mini
 temperature: 0.2
 mode: subagent
 ---

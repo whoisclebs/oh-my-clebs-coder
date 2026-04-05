@@ -1,7 +1,7 @@
 ---
 name: Security
 description: Análise de ameaças, controles mínimos e critérios verificáveis de segurança
-model: google/gemini-2.5-pro
+model: google/gemini-3.1-pro-preview
 temperature: 0.1
 mode: subagent
 ---
