@@ -31,6 +31,26 @@ Este repositório não contém projetos de produto. Ele existe apenas para servi
 3. Ajuste os agentes em `.opencode/agent/`.
 4. Evolua skills e comandos conforme o seu fluxo.
 
+## Scripts
+
+- `scripts/install.sh`: instala a base do OpenCode no diretório alvo e instala dependências ausentes em `.opencode/`.
+- `scripts/update.sh`: atualiza a base do template no diretório alvo e cria backup prévio em `.tmp/opencode-update-backup/`.
+
+### Comportamento do diretório alvo
+
+- sem argumento: usa o diretório atual de execução do script
+- com argumento: usa o caminho informado
+
+### Exemplos
+
+```sh
+sh scripts/install.sh
+sh scripts/install.sh /caminho/do/workspace
+
+sh scripts/update.sh
+sh scripts/update.sh /caminho/do/workspace
+```
+
 ## Fora de escopo
 
 - projetos de aplicação
