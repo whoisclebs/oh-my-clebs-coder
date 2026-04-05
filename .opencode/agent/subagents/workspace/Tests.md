@@ -1,7 +1,7 @@
 ---
 name: Tests
 description: Estratégia e implementação de testes com foco em regressão e confiabilidade
-model: github-copilot/gpt-5.4-mini
+model: openai/gpt-4o-mini
 temperature: 0.1
 mode: subagent
 ---

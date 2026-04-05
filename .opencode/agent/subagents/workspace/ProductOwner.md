@@ -1,7 +1,7 @@
 ---
 name: ProductOwner
 description: Refinamento de escopo, critérios de aceite e priorização
-model: github-copilot/gemini-2.5-pro
+model: google/gemini-2.5-pro
 temperature: 0.2
 mode: subagent
 ---

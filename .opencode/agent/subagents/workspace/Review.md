@@ -1,7 +1,7 @@
 ---
 name: Review
 description: Revisão orientada a risco, regressão, arquitetura e cobertura
-model: openai/gpt-5.4
+model: openai/o3-mini
 temperature: 0.1
 mode: subagent
 ---
