@@ -1,0 +1,74 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugin": [
+    "opencode-snip@1.5.1",
+    "opencode-plugin-openspec@0.1.4",
+    "opencode-gemini-auth@latest"
+  ],
+  "instructions": [
+    "docs/guidelines.md",
+    "README.md",
+    "AGENTS.md"
+  ],
+  "provider": {
+    "google": {
+      "models": {
+        "gemini-2.5-pro": {
+          "options": {
+            "thinkingConfig": {
+              "thinkingBudget": 8192,
+              "includeThoughts": true
+            }
+          }
+        },
+        "gemini-2.5-flash": {
+          "options": {
+            "thinkingConfig": {
+              "thinkingBudget": 8192,
+              "includeThoughts": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "mcp": {
+    "context7": {
+      "type": "remote",
+      "url": "https://context7.com/mcp",
+      "enabled": true
+    },
+    "figma": {
+      "type": "remote",
+      "url": "https://mcp.figma.com/mcp",
+      "enabled": true
+    }
+  },
+  "permission": {
+    "webfetch": "allow",
+    "ls": "allow",
+    "bash": "ask",
+    "edit": "allow",
+    "read": "allow",
+    "grep": "allow",
+    "glob": "allow",
+    "list": "allow",
+    "lsp": "allow",
+    "git *": "allow",
+    "git push": "ask",
+    "npm": "allow"
+  },
+  "compaction": {
+    "auto": true,
+    "prune": true,
+    "reserved": 24000
+  },
+  "watcher": {
+    "ignore": [
+      "node_modules/**",
+      "dist/**",
+      "coverage/**",
+      ".git/**"
+    ]
+  }
+}
